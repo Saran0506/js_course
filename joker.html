@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="checkbox" id="name" value="male">male
+        <input type="checkbox" id="name1" value="female">female
+        <input type="checkbox" id="name2" value="others">others
+        <input type="submit" value="Submit" onclick="ck()">
+
+        </form>
+        <div id="demo"></div>
+        <script>
+            function ck(){
+                var ab=document.getElementById("name").Value;
+                if(ab.checked){
+                    document.getElementById("demo").innerHTML=ab.value
+                }
+            }
+
+        </script>
+    
+</body>
+</html>

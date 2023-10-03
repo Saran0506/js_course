@@ -1,0 +1,17 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+background-color: rgb(148, 157, 165);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header{
+    padding:10px;
+    text-align: center;
+    background-color: rgb(71, 117, 117);
+    font-style:italic;
+    font-weight: 100;
+    font-style: inherit;
+}
